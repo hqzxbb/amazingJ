@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF0AA081C97A95F00D39D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA071C97A95F00D39D67 /* main.m */; };
+		3FF0AA0B1C97A95F00D39D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */; };
+		3FF0AA0E1C97A95F00D39D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0D1C97A95F00D39D67 /* ViewController.m */; };
+		3FF0AA111C97A95F00D39D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */; };
+		3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */; };
+		3FF0AA161C97A95F00D39D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA151C97A95F00D39D67 /* Assets.xcassets */; };
+		3FF0AA191C97A95F00D39D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF0AA031C97A95F00D39D67 /* amazingJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazingJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF0AA071C97A95F00D39D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FF0AA091C97A95F00D39D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FF0AA0C1C97A95F00D39D67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FF0AA0D1C97A95F00D39D67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FF0AA101C97A95F00D39D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF0AA131C97A95F00D39D67 /* amazingJ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amazingJ.xcdatamodel; sourceTree = "<group>"; };
+		3FF0AA151C97A95F00D39D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF0AA181C97A95F00D39D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF0AA1A1C97A95F00D39D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF0AA001C97A95F00D39D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF0A9FA1C97A95F00D39D67 = {
+			isa = PBXGroup;
+			children = (
+				3FF0AA051C97A95F00D39D67 /* amazingJ */,
+				3FF0AA041C97A95F00D39D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF0AA041C97A95F00D39D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0AA031C97A95F00D39D67 /* amazingJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF0AA051C97A95F00D39D67 /* amazingJ */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0AA091C97A95F00D39D67 /* AppDelegate.h */,
+				3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */,
+				3FF0AA0C1C97A95F00D39D67 /* ViewController.h */,
+				3FF0AA0D1C97A95F00D39D67 /* ViewController.m */,
+				3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */,
+				3FF0AA151C97A95F00D39D67 /* Assets.xcassets */,
+				3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */,
+				3FF0AA1A1C97A95F00D39D67 /* Info.plist */,
+				3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */,
+				3FF0AA061C97A95F00D39D67 /* Supporting Files */,
+			);
+			path = amazingJ;
+			sourceTree = "<group>";
+		};
+		3FF0AA061C97A95F00D39D67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0AA071C97A95F00D39D67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF0AA021C97A95F00D39D67 /* amazingJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF0AA1D1C97A95F00D39D67 /* Build configuration list for PBXNativeTarget "amazingJ" */;
+			buildPhases = (
+				3FF0A9FF1C97A95F00D39D67 /* Sources */,
+				3FF0AA001C97A95F00D39D67 /* Frameworks */,
+				3FF0AA011C97A95F00D39D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amazingJ;
+			productName = amazingJ;
+			productReference = 3FF0AA031C97A95F00D39D67 /* amazingJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF0A9FB1C97A95F00D39D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HBB;
+				TargetAttributes = {
+					3FF0AA021C97A95F00D39D67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K2G752ZV7W;
+					};
+				};
+			};
+			buildConfigurationList = 3FF0A9FE1C97A95F00D39D67 /* Build configuration list for PBXProject "amazingJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF0A9FA1C97A95F00D39D67;
+			productRefGroup = 3FF0AA041C97A95F00D39D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF0AA021C97A95F00D39D67 /* amazingJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF0AA011C97A95F00D39D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF0AA191C97A95F00D39D67 /* LaunchScreen.storyboard in Resources */,
+				3FF0AA161C97A95F00D39D67 /* Assets.xcassets in Resources */,
+				3FF0AA111C97A95F00D39D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF0A9FF1C97A95F00D39D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF0AA0E1C97A95F00D39D67 /* ViewController.m in Sources */,
+				3FF0AA0B1C97A95F00D39D67 /* AppDelegate.m in Sources */,
+				3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */,
+				3FF0AA081C97A95F00D39D67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF0AA101C97A95F00D39D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF0AA181C97A95F00D39D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF0AA1B1C97A95F00D39D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FF0AA1C1C97A95F00D39D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF0AA1E1C97A95F00D39D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = amazingJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HBB.amazingJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF0AA1F1C97A95F00D39D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = amazingJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HBB.amazingJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF0A9FE1C97A95F00D39D67 /* Build configuration list for PBXProject "amazingJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF0AA1B1C97A95F00D39D67 /* Debug */,
+				3FF0AA1C1C97A95F00D39D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF0AA1D1C97A95F00D39D67 /* Build configuration list for PBXNativeTarget "amazingJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF0AA1E1C97A95F00D39D67 /* Debug */,
+				3FF0AA1F1C97A95F00D39D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FF0AA131C97A95F00D39D67 /* amazingJ.xcdatamodel */,
+			);
+			currentVersion = 3FF0AA131C97A95F00D39D67 /* amazingJ.xcdatamodel */;
+			path = amazingJ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FF0A9FB1C97A95F00D39D67 /* Project object */;
+}
