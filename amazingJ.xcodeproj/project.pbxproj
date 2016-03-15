@@ -7,27 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF0AA081C97A95F00D39D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA071C97A95F00D39D67 /* main.m */; };
-		3FF0AA0B1C97A95F00D39D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */; };
-		3FF0AA0E1C97A95F00D39D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0D1C97A95F00D39D67 /* ViewController.m */; };
-		3FF0AA111C97A95F00D39D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */; };
+		3F6012F11C98327400886A6F /* HBBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6012F01C98327400886A6F /* HBBNavigationController.m */; };
+		3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */; };
 		3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */; };
-		3FF0AA161C97A95F00D39D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA151C97A95F00D39D67 /* Assets.xcassets */; };
-		3FF0AA191C97A95F00D39D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */; };
+		3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA201C97CBD900D39D67 /* Assets.xcassets */; };
+		3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677581C982811008CA359 /* HBBEssenceViewController.m */; };
+		3FF6777E1C982811008CA359 /* HBBFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6775E1C982811008CA359 /* HBBFriendTrendsViewController.m */; };
+		3FF6777F1C982811008CA359 /* HBBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677641C982811008CA359 /* HBBMeViewController.m */; };
+		3FF677801C982811008CA359 /* HBBNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6776A1C982811008CA359 /* HBBNewViewController.m */; };
+		3FF677811C982811008CA359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6776F1C982811008CA359 /* AppDelegate.m */; };
+		3FF677821C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677721C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m */; };
+		3FF677831C982811008CA359 /* UIView+HBBPropertyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677741C982811008CA359 /* UIView+HBBPropertyExtension.m */; };
+		3FF677841C982811008CA359 /* HBBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677771C982811008CA359 /* HBBTabBarController.m */; };
+		3FF677851C982811008CA359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677781C982811008CA359 /* main.m */; };
+		3FF677861C982811008CA359 /* HBBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6777C1C982811008CA359 /* HBBTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6012EF1C98327400886A6F /* HBBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBNavigationController.h; sourceTree = "<group>"; };
+		3F6012F01C98327400886A6F /* HBBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBNavigationController.m; sourceTree = "<group>"; };
+		3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		3FF0AA031C97A95F00D39D67 /* amazingJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazingJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF0AA071C97A95F00D39D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FF0AA091C97A95F00D39D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FF0AA0C1C97A95F00D39D67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FF0AA0D1C97A95F00D39D67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FF0AA101C97A95F00D39D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF0AA131C97A95F00D39D67 /* amazingJ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amazingJ.xcdatamodel; sourceTree = "<group>"; };
-		3FF0AA151C97A95F00D39D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FF0AA181C97A95F00D39D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF0AA1A1C97A95F00D39D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF0AA201C97CBD900D39D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF677571C982811008CA359 /* HBBEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBEssenceViewController.h; sourceTree = "<group>"; };
+		3FF677581C982811008CA359 /* HBBEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBEssenceViewController.m; sourceTree = "<group>"; };
+		3FF6775D1C982811008CA359 /* HBBFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBFriendTrendsViewController.h; sourceTree = "<group>"; };
+		3FF6775E1C982811008CA359 /* HBBFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBFriendTrendsViewController.m; sourceTree = "<group>"; };
+		3FF677631C982811008CA359 /* HBBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBMeViewController.h; sourceTree = "<group>"; };
+		3FF677641C982811008CA359 /* HBBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBMeViewController.m; sourceTree = "<group>"; };
+		3FF677691C982811008CA359 /* HBBNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBNewViewController.h; sourceTree = "<group>"; };
+		3FF6776A1C982811008CA359 /* HBBNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBNewViewController.m; sourceTree = "<group>"; };
+		3FF6776E1C982811008CA359 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FF6776F1C982811008CA359 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FF677711C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HBBBarButtonItemExtension.h"; sourceTree = "<group>"; };
+		3FF677721C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HBBBarButtonItemExtension.m"; sourceTree = "<group>"; };
+		3FF677731C982811008CA359 /* UIView+HBBPropertyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HBBPropertyExtension.h"; sourceTree = "<group>"; };
+		3FF677741C982811008CA359 /* UIView+HBBPropertyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBBPropertyExtension.m"; sourceTree = "<group>"; };
+		3FF677761C982811008CA359 /* HBBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTabBarController.h; sourceTree = "<group>"; };
+		3FF677771C982811008CA359 /* HBBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTabBarController.m; sourceTree = "<group>"; };
+		3FF677781C982811008CA359 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FF677791C982811008CA359 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3FF6777B1C982811008CA359 /* HBBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTabBar.h; sourceTree = "<group>"; };
+		3FF6777C1C982811008CA359 /* HBBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +83,7 @@
 		3FF0AA051C97A95F00D39D67 /* amazingJ */ = {
 			isa = PBXGroup;
 			children = (
-				3FF0AA091C97A95F00D39D67 /* AppDelegate.h */,
-				3FF0AA0A1C97A95F00D39D67 /* AppDelegate.m */,
-				3FF0AA0C1C97A95F00D39D67 /* ViewController.h */,
-				3FF0AA0D1C97A95F00D39D67 /* ViewController.m */,
-				3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */,
-				3FF0AA151C97A95F00D39D67 /* Assets.xcassets */,
-				3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */,
-				3FF0AA1A1C97A95F00D39D67 /* Info.plist */,
-				3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */,
+				3FF677541C982811008CA359 /* class */,
 				3FF0AA061C97A95F00D39D67 /* Supporting Files */,
 			);
 			path = amazingJ;
@@ -77,9 +92,201 @@
 		3FF0AA061C97A95F00D39D67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FF0AA071C97A95F00D39D67 /* main.m */,
+				3FF0AA201C97CBD900D39D67 /* Assets.xcassets */,
+				3FF0AA1A1C97A95F00D39D67 /* Info.plist */,
+				3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FF677541C982811008CA359 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677551C982811008CA359 /* Essence */,
+				3FF6775B1C982811008CA359 /* FriendTrends */,
+				3FF677611C982811008CA359 /* Me */,
+				3FF677671C982811008CA359 /* New */,
+				3FF6776D1C982811008CA359 /* Other */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		3FF677551C982811008CA359 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677561C982811008CA359 /* controller */,
+				3FF677591C982811008CA359 /* model */,
+				3FF6775A1C982811008CA359 /* view */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		3FF677561C982811008CA359 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677571C982811008CA359 /* HBBEssenceViewController.h */,
+				3FF677581C982811008CA359 /* HBBEssenceViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3FF677591C982811008CA359 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FF6775A1C982811008CA359 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3FF6775B1C982811008CA359 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6775C1C982811008CA359 /* controller */,
+				3FF6775F1C982811008CA359 /* model */,
+				3FF677601C982811008CA359 /* view */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		3FF6775C1C982811008CA359 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6775D1C982811008CA359 /* HBBFriendTrendsViewController.h */,
+				3FF6775E1C982811008CA359 /* HBBFriendTrendsViewController.m */,
+				3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3FF6775F1C982811008CA359 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FF677601C982811008CA359 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3FF677611C982811008CA359 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677621C982811008CA359 /* controller */,
+				3FF677651C982811008CA359 /* model */,
+				3FF677661C982811008CA359 /* view */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3FF677621C982811008CA359 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677631C982811008CA359 /* HBBMeViewController.h */,
+				3FF677641C982811008CA359 /* HBBMeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3FF677651C982811008CA359 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FF677661C982811008CA359 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3FF677671C982811008CA359 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677681C982811008CA359 /* controller */,
+				3FF6776B1C982811008CA359 /* model */,
+				3FF6776C1C982811008CA359 /* view */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		3FF677681C982811008CA359 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677691C982811008CA359 /* HBBNewViewController.h */,
+				3FF6776A1C982811008CA359 /* HBBNewViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3FF6776B1C982811008CA359 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FF6776C1C982811008CA359 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3FF6776D1C982811008CA359 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677751C982811008CA359 /* controller */,
+				3FF677701C982811008CA359 /* category */,
+				3FF6777A1C982811008CA359 /* view */,
+				3FF6776E1C982811008CA359 /* AppDelegate.h */,
+				3FF6776F1C982811008CA359 /* AppDelegate.m */,
+				3FF677781C982811008CA359 /* main.m */,
+				3FF677791C982811008CA359 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3FF677701C982811008CA359 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677711C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.h */,
+				3FF677721C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m */,
+				3FF677731C982811008CA359 /* UIView+HBBPropertyExtension.h */,
+				3FF677741C982811008CA359 /* UIView+HBBPropertyExtension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		3FF677751C982811008CA359 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FF677761C982811008CA359 /* HBBTabBarController.h */,
+				3FF677771C982811008CA359 /* HBBTabBarController.m */,
+				3F6012EF1C98327400886A6F /* HBBNavigationController.h */,
+				3F6012F01C98327400886A6F /* HBBNavigationController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3FF6777A1C982811008CA359 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6777B1C982811008CA359 /* HBBTabBar.h */,
+				3FF6777C1C982811008CA359 /* HBBTabBar.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +315,7 @@
 		3FF0A9FB1C97A95F00D39D67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HBB;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HBB;
 				TargetAttributes = {
@@ -140,9 +348,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF0AA191C97A95F00D39D67 /* LaunchScreen.storyboard in Resources */,
-				3FF0AA161C97A95F00D39D67 /* Assets.xcassets in Resources */,
-				3FF0AA111C97A95F00D39D67 /* Main.storyboard in Resources */,
+				3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */,
+				3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,33 +360,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF0AA0E1C97A95F00D39D67 /* ViewController.m in Sources */,
-				3FF0AA0B1C97A95F00D39D67 /* AppDelegate.m in Sources */,
+				3F6012F11C98327400886A6F /* HBBNavigationController.m in Sources */,
+				3FF677851C982811008CA359 /* main.m in Sources */,
+				3FF677821C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */,
+				3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */,
+				3FF677861C982811008CA359 /* HBBTabBar.m in Sources */,
+				3FF677831C982811008CA359 /* UIView+HBBPropertyExtension.m in Sources */,
+				3FF6777F1C982811008CA359 /* HBBMeViewController.m in Sources */,
+				3FF677811C982811008CA359 /* AppDelegate.m in Sources */,
+				3FF677801C982811008CA359 /* HBBNewViewController.m in Sources */,
+				3FF677841C982811008CA359 /* HBBTabBarController.m in Sources */,
 				3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */,
-				3FF0AA081C97A95F00D39D67 /* main.m in Sources */,
+				3FF6777E1C982811008CA359 /* HBBFriendTrendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3FF0AA0F1C97A95F00D39D67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FF0AA101C97A95F00D39D67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FF0AA171C97A95F00D39D67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FF0AA181C97A95F00D39D67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3FF0AA1B1C97A95F00D39D67 /* Debug */ = {
@@ -266,6 +462,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = amazingJ/class/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = amazingJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HBB.amazingJ;
@@ -277,6 +475,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = amazingJ/class/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = amazingJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HBB.amazingJ;
@@ -303,6 +503,7 @@
 				3FF0AA1F1C97A95F00D39D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
