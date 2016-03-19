@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HBBRecomandViewController">
+            <connections>
+                <outlet property="leftview" destination="gve-9Z-dWT" id="aT1-Tx-tMt"/>
+                <outlet property="rightView" destination="5lf-gJ-LWU" id="1ut-u4-kSH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gve-9Z-dWT" userLabel="leftView">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="b8e-WD-hs9"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="grx-SB-u2J"/>
+                        <outlet property="delegate" destination="-1" id="nVS-b3-0bZ"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5lf-gJ-LWU" userLabel="rightView">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="t3t-A2-ABV"/>
+                        <outlet property="delegate" destination="-1" id="BsY-Sm-dzb"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gve-9Z-dWT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="44v-oQ-5tl"/>
+                <constraint firstItem="gve-9Z-dWT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4UQ-db-pKy"/>
+                <constraint firstAttribute="bottom" secondItem="gve-9Z-dWT" secondAttribute="bottom" id="8fu-Bq-KVP"/>
+                <constraint firstItem="5lf-gJ-LWU" firstAttribute="leading" secondItem="gve-9Z-dWT" secondAttribute="trailing" id="EW2-AX-caT"/>
+                <constraint firstAttribute="bottom" secondItem="5lf-gJ-LWU" secondAttribute="bottom" id="Lao-vv-63b"/>
+                <constraint firstAttribute="trailing" secondItem="5lf-gJ-LWU" secondAttribute="trailing" id="LbQ-AN-88R"/>
+                <constraint firstItem="5lf-gJ-LWU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rcA-ti-bt1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

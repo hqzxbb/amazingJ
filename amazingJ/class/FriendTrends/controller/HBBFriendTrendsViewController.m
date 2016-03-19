@@ -7,6 +7,7 @@
 //
 
 #import "HBBFriendTrendsViewController.h"
+#import "HBBRecomandViewController.h"
 
 @interface HBBFriendTrendsViewController ()
 
@@ -23,14 +24,13 @@
     //设置tabBarItem
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highlightImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsRecommentClick)];
     
+    //设置背景
     self.view.backgroundColor = HBBGlobalRGB;
     
 }
 
 - (void)friendsRecommentClick{
-    HBBLogFunc;
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor redColor];
+    HBBRecomandViewController *vc = [[HBBRecomandViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

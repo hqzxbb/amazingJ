@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2A546010F86ED7C6D8D630 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8460F6B6373B529B360F14 /* libPods.a */; };
+		3F513D161C9AAAEF009FABF9 /* HBBReconmandUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */; };
+		3F513D171C9AAAEF009FABF9 /* HBBReconmandUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */; };
+		3F513D1A1C9AC1CE009FABF9 /* HBBRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F513D191C9AC1CE009FABF9 /* HBBRecommendUser.m */; };
 		3F6012F11C98327400886A6F /* HBBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6012F01C98327400886A6F /* HBBNavigationController.m */; };
 		3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */; };
+		3F6EE4591C9A5A1B00D57BCA /* HBBRecomandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EE4581C9A5A1B00D57BCA /* HBBRecomandCategory.m */; };
+		3F6EE45D1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EE45B1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m */; };
+		3F6EE45E1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EE45C1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib */; };
+		3FC3AAAD1C9937010099D3D1 /* HBBRecomandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */; };
+		3FC3AAAE1C9937010099D3D1 /* HBBRecomandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */; };
 		3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */; };
 		3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0AA201C97CBD900D39D67 /* Assets.xcassets */; };
 		3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF677581C982811008CA359 /* HBBEssenceViewController.m */; };
@@ -24,9 +33,58 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0669AE8223E5404C2B41E9C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3F513D131C9AAAEF009FABF9 /* HBBReconmandUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBReconmandUserCell.h; path = Pods/HBBReconmandUserCell.h; sourceTree = SOURCE_ROOT; };
+		3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBReconmandUserCell.m; path = Pods/HBBReconmandUserCell.m; sourceTree = SOURCE_ROOT; };
+		3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBBReconmandUserCell.xib; path = Pods/HBBReconmandUserCell.xib; sourceTree = SOURCE_ROOT; };
+		3F513D181C9AC1CE009FABF9 /* HBBRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecommendUser.h; path = Pods/HBBRecommendUser.h; sourceTree = SOURCE_ROOT; };
+		3F513D191C9AC1CE009FABF9 /* HBBRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecommendUser.m; path = Pods/HBBRecommendUser.m; sourceTree = SOURCE_ROOT; };
 		3F6012EF1C98327400886A6F /* HBBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBNavigationController.h; sourceTree = "<group>"; };
 		3F6012F01C98327400886A6F /* HBBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBNavigationController.m; sourceTree = "<group>"; };
 		3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		3F6EE4331C9A355000D57BCA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3F6EE4341C9A355000D57BCA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		3F6EE4351C9A355000D57BCA /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3F6EE4361C9A355000D57BCA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3F6EE4371C9A355000D57BCA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3F6EE4381C9A355000D57BCA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3F6EE4391C9A355000D57BCA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		3F6EE43A1C9A355000D57BCA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		3F6EE43B1C9A355000D57BCA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3F6EE43C1C9A355000D57BCA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		3F6EE43D1C9A355000D57BCA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3F6EE43E1C9A355000D57BCA /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		3F6EE43F1C9A355000D57BCA /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		3F6EE4401C9A355000D57BCA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F6EE4411C9A355000D57BCA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F6EE4431C9A355000D57BCA /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		3F6EE4441C9A355000D57BCA /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		3F6EE4451C9A355000D57BCA /* AFImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		3F6EE4461C9A355000D57BCA /* AFImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		3F6EE4471C9A355000D57BCA /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		3F6EE4481C9A355000D57BCA /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		3F6EE4491C9A355000D57BCA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE44A1C9A355000D57BCA /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE44B1C9A355000D57BCA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE44C1C9A355000D57BCA /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE44D1C9A355000D57BCA /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE44E1C9A355000D57BCA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE44F1C9A355000D57BCA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE4501C9A355000D57BCA /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE4511C9A355000D57BCA /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE4521C9A355000D57BCA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE4531C9A355000D57BCA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE4541C9A355000D57BCA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE4551C9A355000D57BCA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F6EE4561C9A355000D57BCA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3F6EE4571C9A5A1B00D57BCA /* HBBRecomandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecomandCategory.h; path = Pods/HBBRecomandCategory.h; sourceTree = SOURCE_ROOT; };
+		3F6EE4581C9A5A1B00D57BCA /* HBBRecomandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecomandCategory.m; path = Pods/HBBRecomandCategory.m; sourceTree = SOURCE_ROOT; };
+		3F6EE45A1C9A5BD600D57BCA /* HBBRecomandCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecomandCategoryCell.h; path = Pods/HBBRecomandCategoryCell.h; sourceTree = SOURCE_ROOT; };
+		3F6EE45B1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecomandCategoryCell.m; path = Pods/HBBRecomandCategoryCell.m; sourceTree = SOURCE_ROOT; };
+		3F6EE45C1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBBRecomandCategoryCell.xib; path = Pods/HBBRecomandCategoryCell.xib; sourceTree = SOURCE_ROOT; };
+		3FC3AAAA1C9937010099D3D1 /* HBBRecomandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBRecomandViewController.h; sourceTree = "<group>"; };
+		3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBRecomandViewController.m; sourceTree = "<group>"; };
+		3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBRecomandViewController.xib; sourceTree = "<group>"; };
 		3FF0AA031C97A95F00D39D67 /* amazingJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazingJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF0AA131C97A95F00D39D67 /* amazingJ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amazingJ.xcdatamodel; sourceTree = "<group>"; };
 		3FF0AA1A1C97A95F00D39D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +109,8 @@
 		3FF677791C982811008CA359 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3FF6777B1C982811008CA359 /* HBBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTabBar.h; sourceTree = "<group>"; };
 		3FF6777C1C982811008CA359 /* HBBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTabBar.m; sourceTree = "<group>"; };
+		9B8460F6B6373B529B360F14 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3881DD64E572B4A27DF9C87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +118,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2A546010F86ED7C6D8D630 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F6EE4311C9A355000D57BCA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EE4321C9A355000D57BCA /* AFNetworking */,
+				3F6EE4401C9A355000D57BCA /* LICENSE */,
+				3F6EE4411C9A355000D57BCA /* README.md */,
+				3F6EE4421C9A355000D57BCA /* UIKit+AFNetworking */,
+			);
+			name = AFNetworking;
+			path = Pods/AFNetworking;
+			sourceTree = "<group>";
+		};
+		3F6EE4321C9A355000D57BCA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EE4331C9A355000D57BCA /* AFHTTPSessionManager.h */,
+				3F6EE4341C9A355000D57BCA /* AFHTTPSessionManager.m */,
+				3F6EE4351C9A355000D57BCA /* AFNetworking.h */,
+				3F6EE4361C9A355000D57BCA /* AFNetworkReachabilityManager.h */,
+				3F6EE4371C9A355000D57BCA /* AFNetworkReachabilityManager.m */,
+				3F6EE4381C9A355000D57BCA /* AFSecurityPolicy.h */,
+				3F6EE4391C9A355000D57BCA /* AFSecurityPolicy.m */,
+				3F6EE43A1C9A355000D57BCA /* AFURLRequestSerialization.h */,
+				3F6EE43B1C9A355000D57BCA /* AFURLRequestSerialization.m */,
+				3F6EE43C1C9A355000D57BCA /* AFURLResponseSerialization.h */,
+				3F6EE43D1C9A355000D57BCA /* AFURLResponseSerialization.m */,
+				3F6EE43E1C9A355000D57BCA /* AFURLSessionManager.h */,
+				3F6EE43F1C9A355000D57BCA /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3F6EE4421C9A355000D57BCA /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EE4431C9A355000D57BCA /* AFAutoPurgingImageCache.h */,
+				3F6EE4441C9A355000D57BCA /* AFAutoPurgingImageCache.m */,
+				3F6EE4451C9A355000D57BCA /* AFImageDownloader.h */,
+				3F6EE4461C9A355000D57BCA /* AFImageDownloader.m */,
+				3F6EE4471C9A355000D57BCA /* AFNetworkActivityIndicatorManager.h */,
+				3F6EE4481C9A355000D57BCA /* AFNetworkActivityIndicatorManager.m */,
+				3F6EE4491C9A355000D57BCA /* UIActivityIndicatorView+AFNetworking.h */,
+				3F6EE44A1C9A355000D57BCA /* UIActivityIndicatorView+AFNetworking.m */,
+				3F6EE44B1C9A355000D57BCA /* UIButton+AFNetworking.h */,
+				3F6EE44C1C9A355000D57BCA /* UIButton+AFNetworking.m */,
+				3F6EE44D1C9A355000D57BCA /* UIImage+AFNetworking.h */,
+				3F6EE44E1C9A355000D57BCA /* UIImageView+AFNetworking.h */,
+				3F6EE44F1C9A355000D57BCA /* UIImageView+AFNetworking.m */,
+				3F6EE4501C9A355000D57BCA /* UIKit+AFNetworking.h */,
+				3F6EE4511C9A355000D57BCA /* UIProgressView+AFNetworking.h */,
+				3F6EE4521C9A355000D57BCA /* UIProgressView+AFNetworking.m */,
+				3F6EE4531C9A355000D57BCA /* UIRefreshControl+AFNetworking.h */,
+				3F6EE4541C9A355000D57BCA /* UIRefreshControl+AFNetworking.m */,
+				3F6EE4551C9A355000D57BCA /* UIWebView+AFNetworking.h */,
+				3F6EE4561C9A355000D57BCA /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
 		3FF0A9FA1C97A95F00D39D67 = {
 			isa = PBXGroup;
 			children = (
 				3FF0AA051C97A95F00D39D67 /* amazingJ */,
 				3FF0AA041C97A95F00D39D67 /* Products */,
+				D827F16F5A02BC592D111030 /* Pods */,
+				DA657EBBB3581404DDD5604E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +282,9 @@
 				3FF6775D1C982811008CA359 /* HBBFriendTrendsViewController.h */,
 				3FF6775E1C982811008CA359 /* HBBFriendTrendsViewController.m */,
 				3F6012F21C98478600886A6F /* HBBFriendTrendsViewController.xib */,
+				3FC3AAAA1C9937010099D3D1 /* HBBRecomandViewController.h */,
+				3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */,
+				3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -167,6 +292,10 @@
 		3FF6775F1C982811008CA359 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				3F6EE4571C9A5A1B00D57BCA /* HBBRecomandCategory.h */,
+				3F6EE4581C9A5A1B00D57BCA /* HBBRecomandCategory.m */,
+				3F513D181C9AC1CE009FABF9 /* HBBRecommendUser.h */,
+				3F513D191C9AC1CE009FABF9 /* HBBRecommendUser.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -174,6 +303,12 @@
 		3FF677601C982811008CA359 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3F6EE45A1C9A5BD600D57BCA /* HBBRecomandCategoryCell.h */,
+				3F6EE45B1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m */,
+				3F6EE45C1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib */,
+				3F513D131C9AAAEF009FABF9 /* HBBReconmandUserCell.h */,
+				3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */,
+				3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -289,6 +424,24 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		D827F16F5A02BC592D111030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3881DD64E572B4A27DF9C87 /* Pods.debug.xcconfig */,
+				0669AE8223E5404C2B41E9C2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA657EBBB3581404DDD5604E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EE4311C9A355000D57BCA /* AFNetworking */,
+				9B8460F6B6373B529B360F14 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,9 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FF0AA1D1C97A95F00D39D67 /* Build configuration list for PBXNativeTarget "amazingJ" */;
 			buildPhases = (
+				B6EC1B33CCAD0CDC86DFCECD /* Check Pods Manifest.lock */,
 				3FF0A9FF1C97A95F00D39D67 /* Sources */,
 				3FF0AA001C97A95F00D39D67 /* Frameworks */,
 				3FF0AA011C97A95F00D39D67 /* Resources */,
+				AA07EEFD059CC6AA969A929A /* Embed Pods Frameworks */,
+				BF50D7C254C04D8F61C7E5D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,10 +506,61 @@
 			files = (
 				3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */,
 				3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */,
+				3FC3AAAE1C9937010099D3D1 /* HBBRecomandViewController.xib in Resources */,
+				3F513D171C9AAAEF009FABF9 /* HBBReconmandUserCell.xib in Resources */,
+				3F6EE45E1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA07EEFD059CC6AA969A929A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EC1B33CCAD0CDC86DFCECD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF50D7C254C04D8F61C7E5D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FF0A9FF1C97A95F00D39D67 /* Sources */ = {
@@ -361,13 +568,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6012F11C98327400886A6F /* HBBNavigationController.m in Sources */,
+				3FC3AAAD1C9937010099D3D1 /* HBBRecomandViewController.m in Sources */,
 				3FF677851C982811008CA359 /* main.m in Sources */,
+				3F513D161C9AAAEF009FABF9 /* HBBReconmandUserCell.m in Sources */,
 				3FF677821C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */,
 				3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */,
 				3FF677861C982811008CA359 /* HBBTabBar.m in Sources */,
+				3F6EE45D1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m in Sources */,
 				3FF677831C982811008CA359 /* UIView+HBBPropertyExtension.m in Sources */,
 				3FF6777F1C982811008CA359 /* HBBMeViewController.m in Sources */,
+				3F513D1A1C9AC1CE009FABF9 /* HBBRecommendUser.m in Sources */,
 				3FF677811C982811008CA359 /* AppDelegate.m in Sources */,
+				3F6EE4591C9A5A1B00D57BCA /* HBBRecomandCategory.m in Sources */,
 				3FF677801C982811008CA359 /* HBBNewViewController.m in Sources */,
 				3FF677841C982811008CA359 /* HBBTabBarController.m in Sources */,
 				3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */,
@@ -460,6 +672,7 @@
 		};
 		3FF0AA1E1C97A95F00D39D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3881DD64E572B4A27DF9C87 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -473,6 +686,7 @@
 		};
 		3FF0AA1F1C97A95F00D39D67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0669AE8223E5404C2B41E9C2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
