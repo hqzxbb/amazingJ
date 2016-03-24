@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193F8E2A1CA3A7C000DB3DBD /* HBBPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193F8E291CA3A7C000DB3DBD /* HBBPushGuideView.m */; };
+		193F8E2C1CA3A7D500DB3DBD /* HBBPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193F8E2B1CA3A7D500DB3DBD /* HBBPushGuideView.xib */; };
 		1990CA441CA2565100CABB94 /* HBBLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CA421CA2565100CABB94 /* HBBLoginRegisterViewController.m */; };
 		1990CA451CA2565100CABB94 /* HBBLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1990CA431CA2565100CABB94 /* HBBLoginRegisterViewController.xib */; };
 		1990CA481CA26AED00CABB94 /* HBBVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CA471CA26AED00CABB94 /* HBBVerticalButton.m */; };
@@ -42,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		0669AE8223E5404C2B41E9C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		193F8E281CA3A7C000DB3DBD /* HBBPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBPushGuideView.h; sourceTree = "<group>"; };
+		193F8E291CA3A7C000DB3DBD /* HBBPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBPushGuideView.m; sourceTree = "<group>"; };
+		193F8E2B1CA3A7D500DB3DBD /* HBBPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBPushGuideView.xib; sourceTree = "<group>"; };
 		1990CA411CA2565100CABB94 /* HBBLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBLoginRegisterViewController.h; sourceTree = "<group>"; };
 		1990CA421CA2565100CABB94 /* HBBLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBLoginRegisterViewController.m; sourceTree = "<group>"; };
 		1990CA431CA2565100CABB94 /* HBBLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBLoginRegisterViewController.xib; sourceTree = "<group>"; };
@@ -456,6 +461,9 @@
 			children = (
 				3FF6777B1C982811008CA359 /* HBBTabBar.h */,
 				3FF6777C1C982811008CA359 /* HBBTabBar.m */,
+				193F8E281CA3A7C000DB3DBD /* HBBPushGuideView.h */,
+				193F8E291CA3A7C000DB3DBD /* HBBPushGuideView.m */,
+				193F8E2B1CA3A7D500DB3DBD /* HBBPushGuideView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -542,6 +550,7 @@
 			files = (
 				3F3E3DB81C9E874D003F8BB6 /* HBBRecommandTagCell.xib in Resources */,
 				3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */,
+				193F8E2C1CA3A7D500DB3DBD /* HBBPushGuideView.xib in Resources */,
 				3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */,
 				1990CA451CA2565100CABB94 /* HBBLoginRegisterViewController.xib in Resources */,
 				3FC3AAAE1C9937010099D3D1 /* HBBRecomandViewController.xib in Resources */,
@@ -615,6 +624,7 @@
 				3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */,
 				3FF677861C982811008CA359 /* HBBTabBar.m in Sources */,
 				3F6EE45D1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m in Sources */,
+				193F8E2A1CA3A7C000DB3DBD /* HBBPushGuideView.m in Sources */,
 				3FF677831C982811008CA359 /* UIView+HBBPropertyExtension.m in Sources */,
 				3F3E3DB71C9E874D003F8BB6 /* HBBRecommandTagCell.m in Sources */,
 				1990CA441CA2565100CABB94 /* HBBLoginRegisterViewController.m in Sources */,

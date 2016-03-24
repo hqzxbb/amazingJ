@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HBBTabBarController.h"
+#import "HBBPushGuideView.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,6 @@
     
     //创建窗口
     self.window = [[UIWindow alloc] init];
-    
     self.window.frame = [UIScreen mainScreen].bounds;
     
     //设置窗口的根控制器
@@ -30,6 +30,9 @@
     
     //显示窗口
     [self.window makeKeyAndVisible];
+    
+    //显示推送引导
+    [HBBPushGuideView show];
     
     return YES;
 }
