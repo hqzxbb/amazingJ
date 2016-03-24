@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1990CA441CA2565100CABB94 /* HBBLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CA421CA2565100CABB94 /* HBBLoginRegisterViewController.m */; };
+		1990CA451CA2565100CABB94 /* HBBLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1990CA431CA2565100CABB94 /* HBBLoginRegisterViewController.xib */; };
+		1990CA481CA26AED00CABB94 /* HBBVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CA471CA26AED00CABB94 /* HBBVerticalButton.m */; };
+		1990CA4B1CA28F7700CABB94 /* HBBPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CA4A1CA28F7700CABB94 /* HBBPlaceholder.m */; };
 		2D2A546010F86ED7C6D8D630 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8460F6B6373B529B360F14 /* libPods.a */; };
+		3F3E3DB71C9E874D003F8BB6 /* HBBRecommandTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E3DB51C9E874D003F8BB6 /* HBBRecommandTagCell.m */; };
+		3F3E3DB81C9E874D003F8BB6 /* HBBRecommandTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E3DB61C9E874D003F8BB6 /* HBBRecommandTagCell.xib */; };
 		3F513D161C9AAAEF009FABF9 /* HBBReconmandUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */; };
 		3F513D171C9AAAEF009FABF9 /* HBBReconmandUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */; };
 		3F513D1A1C9AC1CE009FABF9 /* HBBRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F513D191C9AC1CE009FABF9 /* HBBRecommendUser.m */; };
@@ -16,6 +22,8 @@
 		3F6EE4591C9A5A1B00D57BCA /* HBBRecomandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EE4581C9A5A1B00D57BCA /* HBBRecomandCategory.m */; };
 		3F6EE45D1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EE45B1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m */; };
 		3F6EE45E1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EE45C1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib */; };
+		3FC0F5B61C9D91A900FDEE71 /* HBBRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0F5B51C9D91A900FDEE71 /* HBBRecommendTagsViewController.m */; };
+		3FC0F5B91C9D944000FDEE71 /* HBBRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0F5B81C9D944000FDEE71 /* HBBRecommendTag.m */; };
 		3FC3AAAD1C9937010099D3D1 /* HBBRecomandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */; };
 		3FC3AAAE1C9937010099D3D1 /* HBBRecomandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */; };
 		3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0AA121C97A95F00D39D67 /* amazingJ.xcdatamodeld */; };
@@ -34,6 +42,16 @@
 
 /* Begin PBXFileReference section */
 		0669AE8223E5404C2B41E9C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1990CA411CA2565100CABB94 /* HBBLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBLoginRegisterViewController.h; sourceTree = "<group>"; };
+		1990CA421CA2565100CABB94 /* HBBLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBLoginRegisterViewController.m; sourceTree = "<group>"; };
+		1990CA431CA2565100CABB94 /* HBBLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		1990CA461CA26AED00CABB94 /* HBBVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBVerticalButton.h; path = amazingJ/class/FriendTrends/controller/HBBVerticalButton.h; sourceTree = SOURCE_ROOT; };
+		1990CA471CA26AED00CABB94 /* HBBVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBVerticalButton.m; path = amazingJ/class/FriendTrends/controller/HBBVerticalButton.m; sourceTree = SOURCE_ROOT; };
+		1990CA491CA28F7700CABB94 /* HBBPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBPlaceholder.h; path = amazingJ/class/FriendTrends/controller/HBBPlaceholder.h; sourceTree = SOURCE_ROOT; };
+		1990CA4A1CA28F7700CABB94 /* HBBPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBPlaceholder.m; path = amazingJ/class/FriendTrends/controller/HBBPlaceholder.m; sourceTree = SOURCE_ROOT; };
+		3F3E3DB41C9E874D003F8BB6 /* HBBRecommandTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecommandTagCell.h; path = amazingJ/class/Essence/controller/HBBRecommandTagCell.h; sourceTree = SOURCE_ROOT; };
+		3F3E3DB51C9E874D003F8BB6 /* HBBRecommandTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecommandTagCell.m; path = amazingJ/class/Essence/controller/HBBRecommandTagCell.m; sourceTree = SOURCE_ROOT; };
+		3F3E3DB61C9E874D003F8BB6 /* HBBRecommandTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBBRecommandTagCell.xib; path = amazingJ/class/Essence/controller/HBBRecommandTagCell.xib; sourceTree = SOURCE_ROOT; };
 		3F513D131C9AAAEF009FABF9 /* HBBReconmandUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBReconmandUserCell.h; path = Pods/HBBReconmandUserCell.h; sourceTree = SOURCE_ROOT; };
 		3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBReconmandUserCell.m; path = Pods/HBBReconmandUserCell.m; sourceTree = SOURCE_ROOT; };
 		3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBBReconmandUserCell.xib; path = Pods/HBBReconmandUserCell.xib; sourceTree = SOURCE_ROOT; };
@@ -82,6 +100,10 @@
 		3F6EE45A1C9A5BD600D57BCA /* HBBRecomandCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecomandCategoryCell.h; path = Pods/HBBRecomandCategoryCell.h; sourceTree = SOURCE_ROOT; };
 		3F6EE45B1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecomandCategoryCell.m; path = Pods/HBBRecomandCategoryCell.m; sourceTree = SOURCE_ROOT; };
 		3F6EE45C1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HBBRecomandCategoryCell.xib; path = Pods/HBBRecomandCategoryCell.xib; sourceTree = SOURCE_ROOT; };
+		3FC0F5B41C9D91A900FDEE71 /* HBBRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBRecommendTagsViewController.h; sourceTree = "<group>"; };
+		3FC0F5B51C9D91A900FDEE71 /* HBBRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBRecommendTagsViewController.m; sourceTree = "<group>"; };
+		3FC0F5B71C9D944000FDEE71 /* HBBRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBRecommendTag.h; path = amazingJ/class/Essence/controller/HBBRecommendTag.h; sourceTree = SOURCE_ROOT; };
+		3FC0F5B81C9D944000FDEE71 /* HBBRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBRecommendTag.m; path = amazingJ/class/Essence/controller/HBBRecommendTag.m; sourceTree = SOURCE_ROOT; };
 		3FC3AAAA1C9937010099D3D1 /* HBBRecomandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBRecomandViewController.h; sourceTree = "<group>"; };
 		3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBRecomandViewController.m; sourceTree = "<group>"; };
 		3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBRecomandViewController.xib; sourceTree = "<group>"; };
@@ -248,6 +270,8 @@
 			children = (
 				3FF677571C982811008CA359 /* HBBEssenceViewController.h */,
 				3FF677581C982811008CA359 /* HBBEssenceViewController.m */,
+				3FC0F5B41C9D91A900FDEE71 /* HBBRecommendTagsViewController.h */,
+				3FC0F5B51C9D91A900FDEE71 /* HBBRecommendTagsViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -255,6 +279,8 @@
 		3FF677591C982811008CA359 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				3FC0F5B71C9D944000FDEE71 /* HBBRecommendTag.h */,
+				3FC0F5B81C9D944000FDEE71 /* HBBRecommendTag.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -262,6 +288,9 @@
 		3FF6775A1C982811008CA359 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3F3E3DB41C9E874D003F8BB6 /* HBBRecommandTagCell.h */,
+				3F3E3DB51C9E874D003F8BB6 /* HBBRecommandTagCell.m */,
+				3F3E3DB61C9E874D003F8BB6 /* HBBRecommandTagCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -285,6 +314,9 @@
 				3FC3AAAA1C9937010099D3D1 /* HBBRecomandViewController.h */,
 				3FC3AAAB1C9937010099D3D1 /* HBBRecomandViewController.m */,
 				3FC3AAAC1C9937010099D3D1 /* HBBRecomandViewController.xib */,
+				1990CA411CA2565100CABB94 /* HBBLoginRegisterViewController.h */,
+				1990CA421CA2565100CABB94 /* HBBLoginRegisterViewController.m */,
+				1990CA431CA2565100CABB94 /* HBBLoginRegisterViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -309,6 +341,10 @@
 				3F513D131C9AAAEF009FABF9 /* HBBReconmandUserCell.h */,
 				3F513D141C9AAAEF009FABF9 /* HBBReconmandUserCell.m */,
 				3F513D151C9AAAEF009FABF9 /* HBBReconmandUserCell.xib */,
+				1990CA461CA26AED00CABB94 /* HBBVerticalButton.h */,
+				1990CA471CA26AED00CABB94 /* HBBVerticalButton.m */,
+				1990CA491CA28F7700CABB94 /* HBBPlaceholder.h */,
+				1990CA4A1CA28F7700CABB94 /* HBBPlaceholder.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -504,8 +540,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3E3DB81C9E874D003F8BB6 /* HBBRecommandTagCell.xib in Resources */,
 				3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */,
 				3F6012F31C98478600886A6F /* HBBFriendTrendsViewController.xib in Resources */,
+				1990CA451CA2565100CABB94 /* HBBLoginRegisterViewController.xib in Resources */,
 				3FC3AAAE1C9937010099D3D1 /* HBBRecomandViewController.xib in Resources */,
 				3F513D171C9AAAEF009FABF9 /* HBBReconmandUserCell.xib in Resources */,
 				3F6EE45E1C9A5BD600D57BCA /* HBBRecomandCategoryCell.xib in Resources */,
@@ -571,18 +609,24 @@
 				3FC3AAAD1C9937010099D3D1 /* HBBRecomandViewController.m in Sources */,
 				3FF677851C982811008CA359 /* main.m in Sources */,
 				3F513D161C9AAAEF009FABF9 /* HBBReconmandUserCell.m in Sources */,
+				1990CA4B1CA28F7700CABB94 /* HBBPlaceholder.m in Sources */,
+				3FC0F5B61C9D91A900FDEE71 /* HBBRecommendTagsViewController.m in Sources */,
 				3FF677821C982811008CA359 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */,
 				3FF6777D1C982811008CA359 /* HBBEssenceViewController.m in Sources */,
 				3FF677861C982811008CA359 /* HBBTabBar.m in Sources */,
 				3F6EE45D1C9A5BD600D57BCA /* HBBRecomandCategoryCell.m in Sources */,
 				3FF677831C982811008CA359 /* UIView+HBBPropertyExtension.m in Sources */,
+				3F3E3DB71C9E874D003F8BB6 /* HBBRecommandTagCell.m in Sources */,
+				1990CA441CA2565100CABB94 /* HBBLoginRegisterViewController.m in Sources */,
 				3FF6777F1C982811008CA359 /* HBBMeViewController.m in Sources */,
 				3F513D1A1C9AC1CE009FABF9 /* HBBRecommendUser.m in Sources */,
 				3FF677811C982811008CA359 /* AppDelegate.m in Sources */,
 				3F6EE4591C9A5A1B00D57BCA /* HBBRecomandCategory.m in Sources */,
+				3FC0F5B91C9D944000FDEE71 /* HBBRecommendTag.m in Sources */,
 				3FF677801C982811008CA359 /* HBBNewViewController.m in Sources */,
 				3FF677841C982811008CA359 /* HBBTabBarController.m in Sources */,
 				3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */,
+				1990CA481CA26AED00CABB94 /* HBBVerticalButton.m in Sources */,
 				3FF6777E1C982811008CA359 /* HBBFriendTrendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

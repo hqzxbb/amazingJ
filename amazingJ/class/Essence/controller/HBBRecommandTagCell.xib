@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HBBRecommandTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TLc-65-tLZ">
+                        <rect key="frame" x="10" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="95z-WJ-luD"/>
+                            <constraint firstAttribute="width" constant="40" id="pQa-sB-qwO"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOq-Ul-Faf">
+                        <rect key="frame" x="260" y="9" width="50" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="dkY-b1-8cT"/>
+                            <constraint firstAttribute="width" constant="50" id="j4P-vd-Nul"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="+ 订阅" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="highlighted" backgroundImage="FollowBtnClickBg">
+                            <color key="titleColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAy-uU-noj">
+                        <rect key="frame" x="60" y="2" width="190" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okm-8u-lWy">
+                        <rect key="frame" x="60" y="27" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TLc-65-tLZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0LK-uB-AG2"/>
+                    <constraint firstItem="okm-8u-lWy" firstAttribute="leading" secondItem="fAy-uU-noj" secondAttribute="leading" id="1NP-gz-Xy0"/>
+                    <constraint firstItem="TLc-65-tLZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1gd-JT-7S6"/>
+                    <constraint firstItem="fAy-uU-noj" firstAttribute="leading" secondItem="TLc-65-tLZ" secondAttribute="trailing" constant="10" id="Ma7-NA-1dA"/>
+                    <constraint firstAttribute="trailing" secondItem="MOq-Ul-Faf" secondAttribute="trailing" constant="10" id="XCZ-C8-ANV"/>
+                    <constraint firstItem="fAy-uU-noj" firstAttribute="top" secondItem="TLc-65-tLZ" secondAttribute="top" id="jX6-ch-dlC"/>
+                    <constraint firstItem="MOq-Ul-Faf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qvR-Bo-naw"/>
+                    <constraint firstItem="MOq-Ul-Faf" firstAttribute="leading" secondItem="fAy-uU-noj" secondAttribute="trailing" constant="10" id="u9M-d3-vXu"/>
+                    <constraint firstItem="okm-8u-lWy" firstAttribute="bottom" secondItem="TLc-65-tLZ" secondAttribute="bottom" id="z5x-Mp-rIa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageListImageView" destination="TLc-65-tLZ" id="0Sj-7q-oG4"/>
+                <outlet property="subNumberLable" destination="okm-8u-lWy" id="eNs-OB-iz7"/>
+                <outlet property="themeNameLable" destination="fAy-uU-noj" id="fda-2s-QKB"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
+        <image name="FollowBtnClickBg" width="51" height="25"/>
+    </resources>
+</document>

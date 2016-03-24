@@ -7,6 +7,7 @@
 //
 
 #import "HBBEssenceViewController.h"
+#import "HBBRecommendTagsViewController.h"
 
 @interface HBBEssenceViewController ()
 
@@ -26,6 +27,9 @@
 }
 
 - (void)essenceClick{
-    HBBLogFunc;
+    
+    HBBRecommendTagsViewController *recommandTagsVC = [[HBBRecommendTagsViewController alloc] init];
+    
+    [self.navigationController pushViewController:recommandTagsVC animated:YES];
 }
 @end

@@ -30,7 +30,15 @@
     
     self.screenNameLabel.text = user.screen_name;
     
-    self.fansCountLabel.text = [NSString stringWithFormat:@"%d",(int)user.fans_count];
+    NSString *subNumber = nil;
+    
+    if (user.fans_count < 10000) {
+        subNumber = [NSString stringWithFormat:@"%d人关注",(int)user.fans_count];
+    } else{
+        subNumber = [NSString stringWithFormat:@"%.1f万人关注",(user.fans_count/10000.0)];
+    }
+    
+    self.fansCountLabel.text = subNumber;
     
 }
 

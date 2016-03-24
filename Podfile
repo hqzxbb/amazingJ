@@ -5,3 +5,6 @@ pod 'SDWebImage'
 pod 'SVProgressHUD'
 pod 'MJExtension'
 pod 'MJRefresh'
+pod 'M13ProgressSuite'
+pod 'Masonry'
+

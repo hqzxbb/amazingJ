@@ -8,6 +8,7 @@
 
 #import "HBBFriendTrendsViewController.h"
 #import "HBBRecomandViewController.h"
+#import "HBBLoginRegisterViewController.h"
 
 @interface HBBFriendTrendsViewController ()
 
@@ -32,6 +33,12 @@
 - (void)friendsRecommentClick{
     HBBRecomandViewController *vc = [[HBBRecomandViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)loginRegister {
+    HBBLoginRegisterViewController *login = [[HBBLoginRegisterViewController alloc] init];
+    
+    [self presentViewController:login animated:YES completion:nil];
+    
 }
 
 @end
