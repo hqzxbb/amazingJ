@@ -43,7 +43,8 @@ static NSString *const HBBTagsID = @"tag";
  */
 - (void)loadTags{
     //添加蒙板
-    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD show];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     
     //请求参数
     NSMutableDictionary *params = [NSMutableDictionary dictionary];

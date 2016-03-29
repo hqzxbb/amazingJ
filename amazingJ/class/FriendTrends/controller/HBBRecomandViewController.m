@@ -69,7 +69,8 @@ static NSString *const HBBUserID = @"user";
     [self setupRefresh];
     
     //显示指示器
-    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD show];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     
     //发送请求加载类别
     [self setupCategorys];
@@ -137,7 +138,7 @@ static NSString *const HBBUserID = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(category.id);
+    params[@"category_id"] = @(category.ID);
     params[@"page"] = @(category.currentPage);
     
     self.params = params;
@@ -199,7 +200,7 @@ static NSString *const HBBUserID = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(category.id);
+    params[@"category_id"] = @(category.ID);
     params[@"page"] = @(++category.currentPage);
     
     [self.manager GET:@"https://api.budejie.com/api/api_open.php" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {

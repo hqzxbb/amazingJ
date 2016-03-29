@@ -7,8 +7,14 @@
 //
 
 #import "HBBRecomandCategory.h"
+#import <MJExtension.h>
 
 @implementation HBBRecomandCategory
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"ID" : @"id"};
+}
+
 - (NSMutableArray *)users{
     if (!_users) {
         _users = [NSMutableArray array];
