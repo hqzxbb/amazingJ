@@ -48,7 +48,7 @@
     }
     
     //马上显示图片的下载进度
-    [self.progressView setProgress:self.topic.picture_progress animated:YES];
+    [self.progressView setProgress:self.topic.picture_progress animated:NO];
     
     //下载图片
     [imageView sd_setImageWithURL:[NSURL URLWithString:self.topic.large_image] placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {

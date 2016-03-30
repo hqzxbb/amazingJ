@@ -60,9 +60,9 @@
         //显示progressView
         self.progressView.hidden = NO;
         //计算加载进度
-        CGFloat progress = 1.0 * receivedSize / expectedSize;
+        topic.picture_progress = 1.0 * receivedSize / expectedSize;
         //显示进度值
-        [self.progressView setProgress:progress animated:NO];
+        [self.progressView setProgress:topic.picture_progress animated:NO];
         
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         //加载完成隐藏progressView

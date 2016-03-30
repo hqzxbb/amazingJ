@@ -10,6 +10,8 @@
 #import "HBBEssenceTopic.h"
 #import <UIImageView+WebCache.h>
 #import "HBBEssenceTopicPictureView.h"
+#import "HBBEssenceTopicVideoView.h"
+#import "HBBEssenceTopicVoiceView.h"
 
 
 @interface HBBEssenceTopicCell()
@@ -54,6 +56,14 @@
  *  cell图片内容
  */
 @property (nonatomic, weak) HBBEssenceTopicPictureView *picutreView;
+/**
+ *  cell声音内容
+ */
+@property (nonatomic, weak) HBBEssenceTopicVoiceView *voiceView;
+/**
+ *  cell视频内容
+ */
+@property (nonatomic, weak) HBBEssenceTopicVideoView *videoView;
 
 @end
 
@@ -69,7 +79,26 @@
     return _picutreView;
 }
 
+- (HBBEssenceTopicVoiceView *)voiceView{
+    if (!_voiceView) {
+        HBBEssenceTopicVoiceView *voice = [HBBEssenceTopicVoiceView voiceView];
+        [self.contentView addSubview:voice];
+        _voiceView = voice;
+    }
+    return _voiceView;
+}
+
+- (HBBEssenceTopicVideoView *)videoView{
+    if (!_videoView) {
+        HBBEssenceTopicVideoView *video = [HBBEssenceTopicVideoView videoView];
+        [self.contentView addSubview:video];
+        _videoView = video;
+    }
+    return _videoView;
+}
+
 - (void)awakeFromNib{
+    self.autoresizingMask = UIViewAutoresizingNone;
     UIImageView *bgView = [[UIImageView alloc] init];
     bgView.image = [UIImage imageNamed:@"mainCellBackground"];
     self.backgroundView = bgView;
@@ -94,9 +123,28 @@
     self.text_Label.text = topic.text;
     
     //根据帖子类型添加对应的内容到cell中
-    if (topic.type == HBBTopicTypePicture) {
+    if (topic.type == HBBTopicTypePicture) {//图片
+        self.picutreView.hidden = NO;
         self.picutreView.topic = topic;
         self.picutreView.frame = topic.picture_frame;
+        self.videoView.hidden = YES;
+        self.voiceView.hidden = YES;
+    } else if (topic.type == HBBTopicTypeVoice){//声音
+        self.voiceView.hidden = NO;
+        self.voiceView.topic = topic;
+        self.voiceView.frame = topic.voice_frame;
+        self.videoView.hidden = YES;
+        self.picutreView.hidden = YES;
+    }else if (topic.type == HBBTopicTypeVideo){//视频
+        self.videoView.hidden = NO;
+        self.videoView.topic = topic;
+        self.videoView.frame = topic.video_frame;
+        self.voiceView.hidden = YES;
+        self.picutreView.hidden = YES;
+    }else if (topic.type == HBBTopicTypeVoice){//段子
+        self.videoView.hidden = YES;
+        self.voiceView.hidden = YES;
+        self.picutreView.hidden = YES;
     }
 }
 

@@ -70,7 +70,18 @@
  *  帖子类型
  */
 @property (nonatomic, assign) HBBTopicType type;
-
+/**
+ *  音频时长
+ */
+@property (nonatomic, assign) NSInteger voicetime;
+/**
+ *  视频时长
+ */
+@property (nonatomic, assign) NSInteger videotime;
+/**
+ *  播放次数
+ */
+@property (nonatomic, assign) NSInteger playcount;
 
 
 /****************  frame  *******************/
@@ -90,4 +101,12 @@
  *  图片的下载进度
  */
 @property (nonatomic, assign) CGFloat picture_progress;
+/**
+ *  声音的frame
+ */
+@property (nonatomic, assign, readonly) CGRect voice_frame;
+/**
+ *  视频的frame
+ */
+@property (nonatomic, assign, readonly) CGRect video_frame;
 @end

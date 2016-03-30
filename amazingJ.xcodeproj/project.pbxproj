@@ -45,6 +45,12 @@
 		190A806B1CA8CBDD00411705 /* HBBPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 190A80451CA8CBDD00411705 /* HBBPushGuideView.xib */; };
 		190A806C1CA8CBDD00411705 /* HBBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A80471CA8CBDD00411705 /* HBBTabBar.m */; };
 		190A806E1CA8CCA300411705 /* HBBEssenceTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 190A806D1CA8CCA300411705 /* HBBEssenceTopicPictureView.xib */; };
+		191160321CAB8D0400467E5B /* HBBPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 191160301CAB8D0400467E5B /* HBBPublicViewController.m */; };
+		191160331CAB8D0400467E5B /* HBBPublicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 191160311CAB8D0400467E5B /* HBBPublicViewController.xib */; };
+		191160361CABF6B600467E5B /* HBBEssenceTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191160351CABF6B600467E5B /* HBBEssenceTopicVideoView.m */; };
+		191160391CABF6D800467E5B /* HBBEssenceTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191160381CABF6D800467E5B /* HBBEssenceTopicVoiceView.m */; };
+		1911603B1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1911603A1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib */; };
+		1911603D1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1911603C1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib */; };
 		1995A5581CAA279400EA5964 /* HBBProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995A5571CAA279400EA5964 /* HBBProgressView.m */; };
 		1995A55C1CAA2B8700EA5964 /* HBBShowBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995A55A1CAA2B8700EA5964 /* HBBShowBigPictureViewController.m */; };
 		1995A55D1CAA2B8700EA5964 /* HBBShowBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1995A55B1CAA2B8700EA5964 /* HBBShowBigPictureViewController.xib */; };
@@ -122,6 +128,15 @@
 		190A80461CA8CBDD00411705 /* HBBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTabBar.h; sourceTree = "<group>"; };
 		190A80471CA8CBDD00411705 /* HBBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTabBar.m; sourceTree = "<group>"; };
 		190A806D1CA8CCA300411705 /* HBBEssenceTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBEssenceTopicPictureView.xib; sourceTree = "<group>"; };
+		1911602F1CAB8D0400467E5B /* HBBPublicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBPublicViewController.h; sourceTree = "<group>"; };
+		191160301CAB8D0400467E5B /* HBBPublicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBPublicViewController.m; sourceTree = "<group>"; };
+		191160311CAB8D0400467E5B /* HBBPublicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBPublicViewController.xib; sourceTree = "<group>"; };
+		191160341CABF6B600467E5B /* HBBEssenceTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBEssenceTopicVideoView.h; sourceTree = "<group>"; };
+		191160351CABF6B600467E5B /* HBBEssenceTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBEssenceTopicVideoView.m; sourceTree = "<group>"; };
+		191160371CABF6D800467E5B /* HBBEssenceTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBEssenceTopicVoiceView.h; sourceTree = "<group>"; };
+		191160381CABF6D800467E5B /* HBBEssenceTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBEssenceTopicVoiceView.m; sourceTree = "<group>"; };
+		1911603A1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBEssenceTopicVideoView.xib; sourceTree = "<group>"; };
+		1911603C1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBEssenceTopicVoiceView.xib; sourceTree = "<group>"; };
 		1995A5561CAA279400EA5964 /* HBBProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBProgressView.h; sourceTree = "<group>"; };
 		1995A5571CAA279400EA5964 /* HBBProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBProgressView.m; sourceTree = "<group>"; };
 		1995A5591CAA2B8700EA5964 /* HBBShowBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBShowBigPictureViewController.h; sourceTree = "<group>"; };
@@ -240,6 +255,12 @@
 				190A80031CA8CBDD00411705 /* HBBEssenceTopicPictureView.h */,
 				190A80041CA8CBDD00411705 /* HBBEssenceTopicPictureView.m */,
 				190A806D1CA8CCA300411705 /* HBBEssenceTopicPictureView.xib */,
+				191160341CABF6B600467E5B /* HBBEssenceTopicVideoView.h */,
+				191160351CABF6B600467E5B /* HBBEssenceTopicVideoView.m */,
+				1911603A1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib */,
+				191160371CABF6D800467E5B /* HBBEssenceTopicVoiceView.h */,
+				191160381CABF6D800467E5B /* HBBEssenceTopicVoiceView.m */,
+				1911603C1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib */,
 				190A80051CA8CBDD00411705 /* HBBRecommandTagCell.h */,
 				190A80061CA8CBDD00411705 /* HBBRecommandTagCell.m */,
 				190A80071CA8CBDD00411705 /* HBBRecommandTagCell.xib */,
@@ -405,6 +426,9 @@
 				190A803B1CA8CBDD00411705 /* HBBNavigationController.m */,
 				190A803C1CA8CBDD00411705 /* HBBTabBarController.h */,
 				190A803D1CA8CBDD00411705 /* HBBTabBarController.m */,
+				1911602F1CAB8D0400467E5B /* HBBPublicViewController.h */,
+				191160301CAB8D0400467E5B /* HBBPublicViewController.m */,
+				191160311CAB8D0400467E5B /* HBBPublicViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -601,13 +625,16 @@
 				190A80511CA8CBDD00411705 /* HBBRecommandTagCell.xib in Resources */,
 				190A806E1CA8CCA300411705 /* HBBEssenceTopicPictureView.xib in Resources */,
 				190A806B1CA8CBDD00411705 /* HBBPushGuideView.xib in Resources */,
+				1911603B1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib in Resources */,
 				3FF0AA211C97CBD900D39D67 /* Assets.xcassets in Resources */,
 				190A80571CA8CBDD00411705 /* HBBRecomandViewController.xib in Resources */,
 				190A805E1CA8CBDD00411705 /* HBBReconmandUserCell.xib in Resources */,
 				190A804E1CA8CBDD00411705 /* HBBEssenceTopicCell.xib in Resources */,
 				190A805C1CA8CBDD00411705 /* HBBRecomandCategoryCell.xib in Resources */,
 				190A80531CA8CBDD00411705 /* HBBFriendTrendsViewController.xib in Resources */,
+				191160331CAB8D0400467E5B /* HBBPublicViewController.xib in Resources */,
 				190A80551CA8CBDD00411705 /* HBBLoginRegisterViewController.xib in Resources */,
+				1911603D1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,10 +693,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191160321CAB8D0400467E5B /* HBBPublicViewController.m in Sources */,
 				190A80641CA8CBDD00411705 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */,
+				191160361CABF6B600467E5B /* HBBEssenceTopicVideoView.m in Sources */,
 				190A805A1CA8CBDD00411705 /* HBBPlaceholder.m in Sources */,
 				1995A55C1CAA2B8700EA5964 /* HBBShowBigPictureViewController.m in Sources */,
 				190A80661CA8CBDD00411705 /* HBBNavigationController.m in Sources */,
+				191160391CABF6D800467E5B /* HBBEssenceTopicVoiceView.m in Sources */,
 				190A80491CA8CBDD00411705 /* HBBEssenceViewController.m in Sources */,
 				190A80611CA8CBDD00411705 /* HBBNewViewController.m in Sources */,
 				190A80521CA8CBDD00411705 /* HBBFriendTrendsViewController.m in Sources */,

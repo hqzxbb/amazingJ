@@ -7,4 +7,5 @@ pod 'MJExtension'
 pod 'MJRefresh'
 pod 'M13ProgressSuite'
 pod 'Masonry'
+pod 'pop'
 
