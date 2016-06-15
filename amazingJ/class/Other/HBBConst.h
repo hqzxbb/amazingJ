@@ -38,3 +38,44 @@ UIKIT_EXTERN CGFloat const HBBTopicCellPictureMaxH;
  *  精华-cell图片帖子超过最大高度用这个高度
  */
 UIKIT_EXTERN CGFloat const HBBTopicCellPictureBreakH;
+/**
+ *  User模型用户的性别属性
+ */
+UIKIT_EXTERN NSString * const HBBUserSexMale;
+UIKIT_EXTERN NSString * const HBBUserSexFemale;
+
+
+
+/**
+ *  精华-cell-最热评论标题的高度
+ */
+UIKIT_EXTERN CGFloat const HBBTopicCellTopCmtTitleH;
+/**
+ *  tabBar被选中的通知的名字
+ */
+UIKIT_EXTERN NSString * const HBBTabBarDidSelectNotifacation;
+/**
+ *   tabBar被选中的通知-被选中的控制器的index key
+ */
+UIKIT_EXTERN NSString * const HBBSelectedControllerIndexKey;
+/**
+ *  tabBar被选中的通知-被选中的控制器key
+ */
+UIKIT_EXTERN NSString * const HBBSelectedControllerKey;
+
+/**
+ *  标签间距
+ */
+UIKIT_EXTERN CGFloat const HBBTagMargin;
+/**
+ *  标签高度
+ */
+UIKIT_EXTERN CGFloat const HBBTagH;
+
+
+
+
+
+
+
+

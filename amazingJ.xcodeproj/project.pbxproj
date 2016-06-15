@@ -51,6 +51,8 @@
 		191160391CABF6D800467E5B /* HBBEssenceTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191160381CABF6D800467E5B /* HBBEssenceTopicVoiceView.m */; };
 		1911603B1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1911603A1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib */; };
 		1911603D1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1911603C1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib */; };
+		191218571D1133BF00060DB1 /* UIImage+HBBImageMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 191218561D1133BF00060DB1 /* UIImage+HBBImageMask.m */; };
+		1912185A1D11343B00060DB1 /* HBBTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 191218591D11343B00060DB1 /* HBBTopWindow.m */; };
 		1995A5581CAA279400EA5964 /* HBBProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995A5571CAA279400EA5964 /* HBBProgressView.m */; };
 		1995A55C1CAA2B8700EA5964 /* HBBShowBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1995A55A1CAA2B8700EA5964 /* HBBShowBigPictureViewController.m */; };
 		1995A55D1CAA2B8700EA5964 /* HBBShowBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1995A55B1CAA2B8700EA5964 /* HBBShowBigPictureViewController.xib */; };
@@ -137,6 +139,10 @@
 		191160381CABF6D800467E5B /* HBBEssenceTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBEssenceTopicVoiceView.m; sourceTree = "<group>"; };
 		1911603A1CABF6EC00467E5B /* HBBEssenceTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBEssenceTopicVideoView.xib; sourceTree = "<group>"; };
 		1911603C1CABF6FE00467E5B /* HBBEssenceTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBEssenceTopicVoiceView.xib; sourceTree = "<group>"; };
+		191218551D1133BF00060DB1 /* UIImage+HBBImageMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HBBImageMask.h"; sourceTree = "<group>"; };
+		191218561D1133BF00060DB1 /* UIImage+HBBImageMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HBBImageMask.m"; sourceTree = "<group>"; };
+		191218581D11343B00060DB1 /* HBBTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTopWindow.h; sourceTree = "<group>"; };
+		191218591D11343B00060DB1 /* HBBTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTopWindow.m; sourceTree = "<group>"; };
 		1995A5561CAA279400EA5964 /* HBBProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBProgressView.h; sourceTree = "<group>"; };
 		1995A5571CAA279400EA5964 /* HBBProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBProgressView.m; sourceTree = "<group>"; };
 		1995A5591CAA2B8700EA5964 /* HBBShowBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBShowBigPictureViewController.h; sourceTree = "<group>"; };
@@ -395,13 +401,13 @@
 			children = (
 				190A80301CA8CBDD00411705 /* AppDelegate.h */,
 				190A80311CA8CBDD00411705 /* AppDelegate.m */,
+				190A80421CA8CBDD00411705 /* view */,
 				190A80321CA8CBDD00411705 /* category */,
 				190A80391CA8CBDD00411705 /* controller */,
 				190A803E1CA8CBDD00411705 /* HBBConst.h */,
 				190A803F1CA8CBDD00411705 /* HBBConst.m */,
 				190A80401CA8CBDD00411705 /* main.m */,
 				190A80411CA8CBDD00411705 /* PrefixHeader.pch */,
-				190A80421CA8CBDD00411705 /* view */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -409,6 +415,8 @@
 		190A80321CA8CBDD00411705 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				191218551D1133BF00060DB1 /* UIImage+HBBImageMask.h */,
+				191218561D1133BF00060DB1 /* UIImage+HBBImageMask.m */,
 				190A80331CA8CBDD00411705 /* NSDate+HBBNSDate.h */,
 				190A80341CA8CBDD00411705 /* NSDate+HBBNSDate.m */,
 				190A80351CA8CBDD00411705 /* UIBarButtonItem+HBBBarButtonItemExtension.h */,
@@ -436,6 +444,8 @@
 		190A80421CA8CBDD00411705 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				191218581D11343B00060DB1 /* HBBTopWindow.h */,
+				191218591D11343B00060DB1 /* HBBTopWindow.m */,
 				190A80431CA8CBDD00411705 /* HBBPushGuideView.h */,
 				190A80441CA8CBDD00411705 /* HBBPushGuideView.m */,
 				190A80451CA8CBDD00411705 /* HBBPushGuideView.xib */,
@@ -705,6 +715,7 @@
 				190A80521CA8CBDD00411705 /* HBBFriendTrendsViewController.m in Sources */,
 				190A804B1CA8CBDD00411705 /* HBBEssenceTopic.m in Sources */,
 				190A80481CA8CBDD00411705 /* HBBEssenceBaseTableViewController.m in Sources */,
+				191218571D1133BF00060DB1 /* UIImage+HBBImageMask.m in Sources */,
 				190A806A1CA8CBDD00411705 /* HBBPushGuideView.m in Sources */,
 				190A80631CA8CBDD00411705 /* NSDate+HBBNSDate.m in Sources */,
 				190A806C1CA8CBDD00411705 /* HBBTabBar.m in Sources */,
@@ -726,6 +737,7 @@
 				190A80561CA8CBDD00411705 /* HBBRecomandViewController.m in Sources */,
 				190A804F1CA8CBDD00411705 /* HBBEssenceTopicPictureView.m in Sources */,
 				190A80581CA8CBDD00411705 /* HBBRecomandCategory.m in Sources */,
+				1912185A1D11343B00060DB1 /* HBBTopWindow.m in Sources */,
 				190A80691CA8CBDD00411705 /* main.m in Sources */,
 				190A80621CA8CBDD00411705 /* AppDelegate.m in Sources */,
 			);

@@ -9,6 +9,8 @@
 #import "HBBEssenceViewController.h"
 #import "HBBRecommendTagsViewController.h"
 #import "HBBEssenceBaseTableViewController.h"
+#import "HBBTopWindow.h"
+
 
 @interface HBBEssenceViewController ()<UIScrollViewDelegate>
 /**
@@ -34,6 +36,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //添加一个顶部window，点击这个window可以让正在显示的屏幕回滚到顶部
+    [HBBTopWindow show];
     
     //设置导航栏的内容
     [self setupNavigationBar];
