@@ -7,6 +7,8 @@
 //
 
 #import "HBBEssenceBaseTableViewController.h"
+#import "HBBCommentViewController.h"
+#import "HBBNewViewController.h"
 #import <AFNetworking.h>
 #import "HBBEssenceTopic.h"
 #import <MJExtension.h>
@@ -30,6 +32,12 @@
  *  请求参数
  */
 @property (nonatomic, strong) NSDictionary *params;
+
+/**
+ *  上一次选中的控制器索引
+ */
+@property (nonatomic, assign) NSInteger lastSelectIndex;
+
 @end
 
 
@@ -73,6 +81,19 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
     
     //注册
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([HBBEssenceTopicCell class]) bundle:nil] forCellReuseIdentifier:HBBEssenceTopicID];
+    
+    //注册tabbar监听
+    [HBBNotificationCenter addObserver:self selector:@selector(tabBarSelect) name:HBBTabBarDidSelectNotifacation object:nil];
+    
+}
+
+- (void)tabBarSelect{
+    //如果是两次重复选中，直接刷新
+    if (self.lastSelectIndex == self.tabBarController.selectedIndex && self.view.isShowingOnKeyWindow) {
+        [self.tableView.mj_header beginRefreshing];
+    }
+    
+    self.lastSelectIndex = self.tabBarController.selectedIndex;
 }
 
 /**
@@ -103,7 +124,7 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
     
     //参数
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
-    param[@"a"] = @"list";
+    param[@"a"] = self.a;
     param[@"c"] = @"data";
     param[@"type"] = @(self.type);
     param[@"page"] = @(self.page);
@@ -148,7 +169,7 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
     
     //参数
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
-    param[@"a"] = @"list";
+    param[@"a"] = self.a;
     param[@"c"] = @"data";
     param[@"type"] = @(self.type);
     self.params = param;
@@ -161,6 +182,8 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
             return ;
         }
         
+//        NSData *data = responseObject;
+//        [data writeToFile:@"/Users/huangbins/Desktop/data.json" atomically:YES];
         //字典转模型
         self.topics = [HBBEssenceTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         
@@ -184,6 +207,12 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
     }];
 }
 
+#pragma mark - a参数
+- (NSString *)a
+{
+    return [self.parentViewController isKindOfClass:[HBBNewViewController class]] ? @"newlist" : @"list";
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -204,5 +233,11 @@ static NSString * const HBBEssenceTopicID = @"essenceTopic";
     //取出模型
     HBBEssenceTopic *topic = self.topics[indexPath.row];
     return topic.cellHeight;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    HBBCommentViewController *commentVC = [[HBBCommentViewController alloc] init];
+    commentVC.topic = self.topics[indexPath.row];
+    [self.navigationController pushViewController:commentVC animated:YES];
 }
 @end

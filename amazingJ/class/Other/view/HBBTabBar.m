@@ -42,6 +42,9 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     
+    //按钮是否添加过监听器标识
+    static BOOL isAddObserver = NO;
+    
     //设置发布按钮的位置
     self.publishButton.center = CGPointMake(self.width * 0.5, self.height * 0.5);
     
@@ -51,15 +54,32 @@
     CGFloat buttonH = self.height;
     
     NSInteger index = 0;
-    for (UIView *btn in self.subviews) {
-        if (![btn isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+    for (UIControl *btn in self.subviews) {
+        
+        if (![btn isKindOfClass:[UIControl class]] || btn == self.publishButton) {
             continue;
         }
+        
+        //计算按钮的x值
         CGFloat buttonX = buttonW * (index > 1 ? (index+1):index);
         btn.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
         
+        //增加索引
         index++;
+        
+        //添加监听器
+        if (isAddObserver == NO) {
+            //监听按钮点击
+            [btn addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+        }
+        
+        isAddObserver = YES;
     }
 }
 
+
+- (void)buttonClick{
+    //发出一个通知
+    [HBBNotificationCenter postNotificationName:HBBTabBarDidSelectNotifacation object:nil userInfo:nil];
+}
 @end

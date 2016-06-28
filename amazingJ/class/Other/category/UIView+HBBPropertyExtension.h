@@ -21,4 +21,9 @@
  *  判断一个控件是否正在显示在主窗口
  */
 - (BOOL)isShowingOnKeyWindow;
+
+/**
+ *  从xib中创建一个view
+ */
++ (instancetype)viewFromNib;
 @end

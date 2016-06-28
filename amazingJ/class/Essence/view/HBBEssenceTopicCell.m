@@ -12,6 +12,7 @@
 #import "HBBEssenceTopicPictureView.h"
 #import "HBBEssenceTopicVideoView.h"
 #import "HBBEssenceTopicVoiceView.h"
+#import "UIImage+HBBImageMask.h"
 
 
 @interface HBBEssenceTopicCell()
@@ -70,6 +71,11 @@
 
 @implementation HBBEssenceTopicCell
 
+
++ (instancetype)cell{
+    return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] firstObject];
+}
+
 - (HBBEssenceTopicPictureView *)picutreView{
     if (!_picutreView) {
         HBBEssenceTopicPictureView *picutre = [HBBEssenceTopicPictureView pictureView];
@@ -105,10 +111,13 @@
 }
 
 - (void)setTopic:(HBBEssenceTopic *)topic{
+    _topic = nil;
     _topic = topic;
     
     //设置其他控件
-    [self.profileImageView sd_setImageWithURL:[NSURL URLWithString:topic.profile_image] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
+    [self.profileImageView sd_setImageWithURL:[NSURL URLWithString:topic.profile_image] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        self.profileImageView.image = image ? [image circleImage] : [UIImage imageNamed:@"defaultUserIcon"];
+    }];
     self.nameLabel.text = topic.name;
     self.createTimeLabel.text = topic.create_time;
     self.sina_v.hidden = !topic.isSina_v;

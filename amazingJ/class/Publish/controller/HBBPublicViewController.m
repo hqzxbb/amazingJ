@@ -8,9 +8,11 @@
 
 #import "HBBPublicViewController.h"
 #import "HBBVerticalButton.h"
+#import "HBBPostWordViewController.h"
+#import "HBBNavigationController.h"
 #import <POP.h>
-static CGFloat const HBBAnimationDelay = 0.1;
-static CGFloat const HBBSpringFactor = 10;
+static CGFloat const HBBAnimationDelay = 0.05;
+static CGFloat const HBBSpringFactor = 5;
 
 @interface HBBPublicViewController ()
 
@@ -73,6 +75,10 @@ static CGFloat const HBBSpringFactor = 10;
     CGFloat centerX = HBBScreenW * 0.5;
     CGFloat centerEndY = HBBScreenH * 0.2;
     CGFloat centerBeginY = centerEndY - HBBScreenH;
+    
+    sloganView.centerY = centerBeginY;
+    sloganView.centerX = centerX;
+    
     anim.fromValue = [NSValue valueWithCGPoint:CGPointMake(centerX, centerBeginY)];
     anim.toValue = [NSValue valueWithCGPoint:CGPointMake(centerX, centerEndY)];
     anim.beginTime = CACurrentMediaTime() + images.count * HBBAnimationDelay;
@@ -86,7 +92,16 @@ static CGFloat const HBBSpringFactor = 10;
 }
 
 - (void)buttonClick:(UIButton *)button{
-    
+    [self cancelWithCompletionBlock:^{
+        if (button.tag == 2) {
+            HBBPostWordViewController *postWorld = [[HBBPostWordViewController alloc] init];
+            HBBNavigationController *nav = [[HBBNavigationController alloc] initWithRootViewController:postWorld];
+            
+            //这里不能使用self弹出其他控制器，因为self已经执行了dismiss操作
+            UIViewController *root = [UIApplication sharedApplication].keyWindow.rootViewController;
+            [root presentViewController:nav animated:YES completion:nil];
+        }
+    }];
 }
 
 - (IBAction)cancel {
@@ -112,7 +127,7 @@ static CGFloat const HBBSpringFactor = 10;
         
         //动画的执行节奏
         anim.toValue = [NSValue valueWithCGPoint:CGPointMake(subview.centerX, centerY)];
-        anim.beginTime = CACurrentMediaTime() + (i - beginIndex) * HBBAnimationDelay;
+        anim.beginTime = CACurrentMediaTime();
         [subview pop_addAnimation:anim forKey:nil];
         
         //监听最后一个动画

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HBBEssenceViewController.h"
 
-@interface HBBNewViewController : UIViewController
+@interface HBBNewViewController : HBBEssenceViewController
 
 @end

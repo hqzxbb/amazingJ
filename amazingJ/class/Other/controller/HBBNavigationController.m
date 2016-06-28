@@ -18,7 +18,8 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
-    
+    //如果滑动移除控制器的功能失效，清空代理，让导航控制器重新设置代理
+    self.interactivePopGestureRecognizer.delegate = nil;
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{

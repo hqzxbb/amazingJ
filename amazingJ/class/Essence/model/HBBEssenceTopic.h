@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKIt/UIKit.h>
-
+@class HBBEssenceComment;
 @interface HBBEssenceTopic : NSObject
+/**
+ *  id
+ */
+@property (nonatomic, copy) NSString *ID;
 /**
  *  昵称
  */
@@ -82,6 +86,17 @@
  *  播放次数
  */
 @property (nonatomic, assign) NSInteger playcount;
+
+
+
+/****************  comment  *******************/
+/**
+ *  最热评论
+ */
+@property (nonatomic, strong) HBBEssenceComment *top_cmt;
+
+
+/****************  comment  *******************/
 
 
 /****************  frame  *******************/

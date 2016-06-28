@@ -7,6 +7,8 @@
 //
 
 #import "HBBEssenceTopic.h"
+#import "HBBEssenceComment.h"
+#import "HBBEssenceUser.h"
 #import <MJExtension.h>
 
 @implementation HBBEssenceTopic
@@ -16,7 +18,14 @@
 }
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName{
-    return @{@"small_image" : @"image0", @"large_image" : @"image1", @"middle_image" : @"image2", @"image_width" : @"width",  @"image_height" : @"height"};
+    return @{@"small_image" : @"image0",
+                    @"large_image" : @"image1",
+                    @"middle_image" : @"image2",
+                    @"image_width" : @"width",
+                    @"image_height" : @"height",
+                    @"ID" : @"id",
+                    @"top_cmt" : @"top_cmt[0]"
+                    };
 }
 
 - (NSString *)create_time{
@@ -95,6 +104,13 @@
             _video_frame = CGRectMake(videoX, videoY, videoW, videoH);
             //cell到视频控件底部的高度
             _cellHeight += videoH + HBBTopicCellMargin;
+        }
+        
+        //如果有最热评论
+        if (self.top_cmt) {
+            NSString *content = [NSString stringWithFormat:@"%@ : %@", self.top_cmt.user.username, self.top_cmt.content];
+            CGFloat contentH = [content boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]} context:nil].size.height;
+            _cellHeight += HBBTopicCellTopCmtTitleH + HBBTopicCellMargin + contentH;
         }
         
         //再加上底部工具条的高度
