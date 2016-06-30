@@ -45,6 +45,13 @@
 		191218781D113A8D00060DB1 /* HBBPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191218711D113A8D00060DB1 /* HBBPlaceHolderTextView.m */; };
 		191218791D113A8D00060DB1 /* HBBTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 191218731D113A8D00060DB1 /* HBBTagButton.m */; };
 		1912187A1D113A8D00060DB1 /* HBBTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 191218751D113A8D00060DB1 /* HBBTagTextField.m */; };
+		19928CE61D2229AB00EA69F9 /* HBBMeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CE41D2229AB00EA69F9 /* HBBMeWebViewController.m */; };
+		19928CE71D2229AB00EA69F9 /* HBBMeWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19928CE51D2229AB00EA69F9 /* HBBMeWebViewController.xib */; };
+		19928CEA1D222A1B00EA69F9 /* HBBMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CE91D222A1B00EA69F9 /* HBBMeTableViewCell.m */; };
+		19928CED1D222A3700EA69F9 /* HBBMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CEC1D222A3700EA69F9 /* HBBMeFooterView.m */; };
+		19928CF01D222A6700EA69F9 /* HBBSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CEF1D222A6700EA69F9 /* HBBSquareButton.m */; };
+		19928CF31D222A8E00EA69F9 /* HBBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CF21D222A8E00EA69F9 /* HBBSettingViewController.m */; };
+		19928CF61D2259EB00EA69F9 /* HBBSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928CF51D2259EB00EA69F9 /* HBBSquare.m */; };
 		19AC9C8E1D153A4400E82C6D /* HBBCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC9C831D153A4400E82C6D /* HBBCommentViewController.m */; };
 		19AC9C8F1D153A4400E82C6D /* HBBCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19AC9C841D153A4400E82C6D /* HBBCommentViewController.xib */; };
 		19AC9C901D153A4400E82C6D /* HBBEssenceBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC9C861D153A4400E82C6D /* HBBEssenceBaseTableViewController.m */; };
@@ -145,6 +152,19 @@
 		191218731D113A8D00060DB1 /* HBBTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTagButton.m; sourceTree = "<group>"; };
 		191218741D113A8D00060DB1 /* HBBTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBTagTextField.h; sourceTree = "<group>"; };
 		191218751D113A8D00060DB1 /* HBBTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBTagTextField.m; sourceTree = "<group>"; };
+		19928CE31D2229AB00EA69F9 /* HBBMeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBMeWebViewController.h; sourceTree = "<group>"; };
+		19928CE41D2229AB00EA69F9 /* HBBMeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBMeWebViewController.m; sourceTree = "<group>"; };
+		19928CE51D2229AB00EA69F9 /* HBBMeWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBMeWebViewController.xib; sourceTree = "<group>"; };
+		19928CE81D222A1B00EA69F9 /* HBBMeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBMeTableViewCell.h; path = amazingJ/class/Me/controller/HBBMeTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		19928CE91D222A1B00EA69F9 /* HBBMeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBMeTableViewCell.m; path = amazingJ/class/Me/controller/HBBMeTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		19928CEB1D222A3700EA69F9 /* HBBMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBMeFooterView.h; path = amazingJ/class/Me/controller/HBBMeFooterView.h; sourceTree = SOURCE_ROOT; };
+		19928CEC1D222A3700EA69F9 /* HBBMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBMeFooterView.m; path = amazingJ/class/Me/controller/HBBMeFooterView.m; sourceTree = SOURCE_ROOT; };
+		19928CEE1D222A6700EA69F9 /* HBBSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBSquareButton.h; path = amazingJ/class/Me/controller/HBBSquareButton.h; sourceTree = SOURCE_ROOT; };
+		19928CEF1D222A6700EA69F9 /* HBBSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBSquareButton.m; path = amazingJ/class/Me/controller/HBBSquareButton.m; sourceTree = SOURCE_ROOT; };
+		19928CF11D222A8E00EA69F9 /* HBBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBSettingViewController.h; sourceTree = "<group>"; };
+		19928CF21D222A8E00EA69F9 /* HBBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBSettingViewController.m; sourceTree = "<group>"; };
+		19928CF41D2259EB00EA69F9 /* HBBSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBBSquare.h; path = amazingJ/class/Me/controller/HBBSquare.h; sourceTree = SOURCE_ROOT; };
+		19928CF51D2259EB00EA69F9 /* HBBSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBBSquare.m; path = amazingJ/class/Me/controller/HBBSquare.m; sourceTree = SOURCE_ROOT; };
 		19AC9C821D153A4400E82C6D /* HBBCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBCommentViewController.h; sourceTree = "<group>"; };
 		19AC9C831D153A4400E82C6D /* HBBCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBCommentViewController.m; sourceTree = "<group>"; };
 		19AC9C841D153A4400E82C6D /* HBBCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBCommentViewController.xib; sourceTree = "<group>"; };
@@ -397,6 +417,11 @@
 			children = (
 				190A80251CA8CBDD00411705 /* HBBMeViewController.h */,
 				190A80261CA8CBDD00411705 /* HBBMeViewController.m */,
+				19928CE31D2229AB00EA69F9 /* HBBMeWebViewController.h */,
+				19928CE41D2229AB00EA69F9 /* HBBMeWebViewController.m */,
+				19928CE51D2229AB00EA69F9 /* HBBMeWebViewController.xib */,
+				19928CF11D222A8E00EA69F9 /* HBBSettingViewController.h */,
+				19928CF21D222A8E00EA69F9 /* HBBSettingViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -404,6 +429,8 @@
 		190A80271CA8CBDD00411705 /* mode */ = {
 			isa = PBXGroup;
 			children = (
+				19928CF41D2259EB00EA69F9 /* HBBSquare.h */,
+				19928CF51D2259EB00EA69F9 /* HBBSquare.m */,
 			);
 			path = mode;
 			sourceTree = "<group>";
@@ -411,6 +438,12 @@
 		190A80281CA8CBDD00411705 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				19928CE81D222A1B00EA69F9 /* HBBMeTableViewCell.h */,
+				19928CE91D222A1B00EA69F9 /* HBBMeTableViewCell.m */,
+				19928CEB1D222A3700EA69F9 /* HBBMeFooterView.h */,
+				19928CEC1D222A3700EA69F9 /* HBBMeFooterView.m */,
+				19928CEE1D222A6700EA69F9 /* HBBSquareButton.h */,
+				19928CEF1D222A6700EA69F9 /* HBBSquareButton.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -743,6 +776,7 @@
 				19AC9C8F1D153A4400E82C6D /* HBBCommentViewController.xib in Resources */,
 				190A80551CA8CBDD00411705 /* HBBLoginRegisterViewController.xib in Resources */,
 				19AC9C941D153A4400E82C6D /* HBBShowBigPictureViewController.xib in Resources */,
+				19928CE71D2229AB00EA69F9 /* HBBMeWebViewController.xib in Resources */,
 				19AC9CC11D153A9000E82C6D /* HBBEssenceTopicVoiceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -803,6 +837,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19AC9C911D153A4400E82C6D /* HBBEssenceViewController.m in Sources */,
+				19928CF01D222A6700EA69F9 /* HBBSquareButton.m in Sources */,
 				19AC9CC01D153A9000E82C6D /* HBBEssenceTopicVoiceView.m in Sources */,
 				19AC9CB91D153A9000E82C6D /* HBBEssenceCommentHeaderView.m in Sources */,
 				190A80641CA8CBDD00411705 /* UIBarButtonItem+HBBBarButtonItemExtension.m in Sources */,
@@ -814,6 +849,7 @@
 				190A80611CA8CBDD00411705 /* HBBNewViewController.m in Sources */,
 				190A80521CA8CBDD00411705 /* HBBFriendTrendsViewController.m in Sources */,
 				191218761D113A8D00060DB1 /* HBBAddTagToolbar.m in Sources */,
+				19928CF61D2259EB00EA69F9 /* HBBSquare.m in Sources */,
 				1912186A1D113A8000060DB1 /* HBBPostWordViewController.m in Sources */,
 				191218571D1133BF00060DB1 /* UIImage+HBBImageMask.m in Sources */,
 				19AC9CC31D153A9000E82C6D /* HBBRecommandTagCell.m in Sources */,
@@ -821,6 +857,7 @@
 				190A806A1CA8CBDD00411705 /* HBBPushGuideView.m in Sources */,
 				190A80631CA8CBDD00411705 /* NSDate+HBBNSDate.m in Sources */,
 				19AC9CA01D153A7B00E82C6D /* HBBRecommendTag.m in Sources */,
+				19928CE61D2229AB00EA69F9 /* HBBMeWebViewController.m in Sources */,
 				1912186B1D113A8000060DB1 /* HBBPublicViewController.m in Sources */,
 				190A806C1CA8CBDD00411705 /* HBBTabBar.m in Sources */,
 				190A80591CA8CBDD00411705 /* HBBRecommendUser.m in Sources */,
@@ -839,12 +876,15 @@
 				190A80681CA8CBDD00411705 /* HBBConst.m in Sources */,
 				19AC9C921D153A4400E82C6D /* HBBRecommendTagsViewController.m in Sources */,
 				19AC9CBE1D153A9000E82C6D /* HBBEssenceTopicVideoView.m in Sources */,
+				19928CEA1D222A1B00EA69F9 /* HBBMeTableViewCell.m in Sources */,
 				190A80601CA8CBDD00411705 /* HBBMeViewController.m in Sources */,
 				3FF0AA141C97A95F00D39D67 /* amazingJ.xcdatamodeld in Sources */,
 				19AC9CBC1D153A9000E82C6D /* HBBEssenceTopicPictureView.m in Sources */,
 				190A80561CA8CBDD00411705 /* HBBRecomandViewController.m in Sources */,
+				19928CED1D222A3700EA69F9 /* HBBMeFooterView.m in Sources */,
 				190A80581CA8CBDD00411705 /* HBBRecomandCategory.m in Sources */,
 				19AC9CB71D153A9000E82C6D /* HBBEssenceCommentCell.m in Sources */,
+				19928CF31D222A8E00EA69F9 /* HBBSettingViewController.m in Sources */,
 				1912185A1D11343B00060DB1 /* HBBTopWindow.m in Sources */,
 				190A80691CA8CBDD00411705 /* main.m in Sources */,
 				19AC9C9D1D153A7B00E82C6D /* HBBEssenceComment.m in Sources */,
