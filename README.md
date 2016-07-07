@@ -9,3 +9,7 @@
 ![image](https://github.com/hqzxbb/amazingJ/blob/master/image/recommend.gif)
 #####登录模块
 ![image](https://github.com/hqzxbb/amazingJ/blob/master/image/friend.gif)
+#####个人页模块
+![image](https://github.com/hqzxbb/amazingJ/blob/master/image/me.gif)
+#####发段子模块
+![image](https://github.com/hqzxbb/amazingJ/blob/master/image/postWords.gif)
